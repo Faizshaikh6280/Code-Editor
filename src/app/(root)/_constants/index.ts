@@ -427,7 +427,6 @@ export const defineMonacoThemes = (monaco: Monaco) => {
       inherit: themeData.inherit,
       rules: themeData.rules.map((rule) => ({
         ...rule,
-        foreground: rule.foreground,
       })),
       colors: themeData.colors,
     });
