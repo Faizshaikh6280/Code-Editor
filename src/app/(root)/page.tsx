@@ -1,6 +1,6 @@
-import EditorPanel from "@/_components/EditorPanel";
-import Header from "@/_components/Header";
-import OutputPanel from "@/_components/OutputPanel";
+import EditorPanel from "@/components/EditorPanel";
+import Header from "@/components/Header";
+import OutputPanel from "@/components/OutputPanel";
 
 export default function Home() {
   return (

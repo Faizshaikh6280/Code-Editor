@@ -1,12 +1,17 @@
 "use client";
-import LoginButton from "@/_components/LoginButton";
+import LoginButton from "@/components/LoginButton";
 import { SignedOut, UserButton } from "@clerk/nextjs";
+import { dark } from "@clerk/themes";
 import { User } from "lucide-react";
 
 function HeaderProfileBtn() {
   return (
     <>
-      <UserButton>
+      <UserButton
+        appearance={{
+          baseTheme: dark,
+        }}
+      >
         <UserButton.MenuItems>
           <UserButton.Link
             label="Profile"
